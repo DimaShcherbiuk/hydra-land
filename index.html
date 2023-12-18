@@ -42,7 +42,7 @@
     </header>
     <main>
       <!----- HERO SECTION ----->
-      <section hero-section section>
+      <section class="hero-section section">
         <div class="container">
           <h1>
             <span>Dive</span> Into The Depths Of <span>Virtual Reality</span>
@@ -58,26 +58,33 @@
             <use href="./img/icons.svg#icon-arrow-small-right"></use>
           </svg>
           <div class="border-background-img-hero">
-            <div class="background-img-hero"></div>
+            <img
+              class="background-img-hero"
+              srcset="./img/bg-img-hero@2x.jpg 2x"
+              src="./img/bg-img-hero.jpg"
+              alt="Hero images hydra"
+              width="490"
+              height="426"
+            />
           </div>
 
           <div>
             <address class="address-page">
               <ul class="address-list">
                 <li>
-                  <a  href="">
+                  <a href="">
                     <div class="address-link">
-                        <svg width="70" height="70">
+                      <svg width="70" height="70">
                         <use href="./img/icons.svg#icon-location"></use>
-                    </svg>
-                    <span>
+                      </svg>
+                      <span>
                         <h3 class="address-link-title">Pay Us a Visit</h3>
                         <p class="address-link-text-contact">
-                            Union St, Seattle, WA 98101, United States
+                          Union St, Seattle, WA 98101, United States
                         </p>
-                    </span></div>
-                    </a
-                  >
+                      </span>
+                    </div>
+                  </a>
                 </li>
                 <li>
                   <a class="address-link" href="tel:+11011111010"
@@ -130,6 +137,17 @@
               vitae.
             </p>
           </div>
+
+          <div class="border-background-img-about">
+            <img
+              class="background-img-about"
+              srcset="./img/bg-img-about@2x.jpg 2x"
+              src="./img/bg-img-about.jpg"
+              alt="Images hydra"
+              width="524"
+              height="557"
+            />
+          </div>
           <div>
             <h2>ABOUT</h2>
             <p>HYDRA VR</p>
@@ -149,11 +167,320 @@
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+
+      <!----- Services-BUILD-Section ----->
+
+      <section class="services-section section">
+        <div class="container">
+          <div>
+            <h2>WHY BUILD</h2>
+            <p>WITH HYDRA?</p>
+            <svg width="200" height="36">
+              <use href="./img/icons.svg#icon-long-arrow-right"></use>
+            </svg>
+            <p>
+              Vitae sapien pellentesque habitant morbi tristique senectus et
+              netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
+              lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt
+              nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet
+              est placerat in. Lectus magna fringilla urna porttitor rhoncus
+              vitae.
+            </p>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img
+                  class="img-list-build"
+                  srcset="./img/simulation1@2x.jpg 2x"
+                  src="/img/simulation1.jpg"
+                  alt="simulation picture"
+                  width="190"
+                  height="190"
+                />
+                <h3>SIMULATION</h3>
+                <p>
+                  Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+                  porttitor rhoncus libero justo laoreet sit amet vitae.
+                </p>
+                <button type="button">TRY IT NOW</button>
+              </li>
+              <li>
+                <img
+                  class="img-list-build"
+                  srcset="./img/education2@2x.jpg 2x"
+                  src="/img/education2.jpg"
+                  alt="education picture"
+                  width="190"
+                  height="190"
+                />
+                <h3>EDUCATION</h3>
+                <p>
+                  Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+                  porttitor rhoncus libero justo laoreet sit amet vitae.
+                </p>
+                <button type="button">TRY IT NOW</button>
+              </li>
+              <li>
+                <img
+                  class="img-list-build"
+                  srcset="./img/self-care3@2x.jpg 2x"
+                  src="/img/self-care3.jpg"
+                  alt="self-care picture"
+                  width="190"
+                  height="190"
+                />
+                <h3>SELF-CARE</h3>
+                <p>
+                  Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+                  porttitor rhoncus libero justo laoreet sit amet vitae.
+                </p>
+                <button type="button">TRY IT NOW</button>
+              </li>
+              <li>
+                <img
+                  class="img-list-build"
+                  srcset="./img/outdoor4@2x.jpg 2x"
+                  src="/img/outdoor4.jpg"
+                  alt="outdoor picture"
+                  width="190"
+                  height="190"
+                />
+                <h3>OUTDOOR</h3>
+                <p>
+                  Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
+                  porttitor rhoncus libero justo laoreet sit amet vitae.
+                </p>
+                <button type="button">TRY IT NOW</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!----------- Tech-Section ---------->
+
+      <section class="tech-section section">
+        <div class="container">
+          <div class="tech-background-img">
+            <h2>TECHNOLOGIES & HARDWARE</h2>
+            <p>USED BY HYDRA VR.</p>
+          </div>
+          <button class="tech-btn-chevron-down" type="button">
+            <svg class="tech-svg-chevron-down" width="70" height="70">
+              <use href="/img/icons.svg#icon-chevron-small-down"></use>
+            </svg>
+          </button>
+          <ul class="tech-png-list">
+            <li>
+              <img
+                srcset="./img/unreal-tech1@2x.png 2x"
+                src="./img/unreal-tech1.png"
+                alt="unreal logo"
+              />
+            </li>
+            <li>
+              <img
+                srcset="./img/unity-tech2@2x.png 2x"
+                src="./img/unity-tech2.png"
+                alt="unity logo"
+              />
+            </li>
+            <li>
+              <img
+                srcset="./img/oculus-tech3@2x.png 2x"
+                src="./img/oculus-tech3.png"
+                alt="oculus logo"
+              />
+            </li>
+            <li>
+              <img
+                srcset="./img/vive-tech4@2x.png 2x"
+                src="./img/vive-tech4.png"
+                alt="vive logo"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!----------- Process-HOW WE BUILD-Section ---------->
+      <section class="process-section section">
+        <div class="container">
+          <div>
+            <h2>HOW WE BUILD</h2>
+            <p>WITH HYDRA VR?</p>
+            <svg width="200" height="36">
+              <use href="./img/icons.svg#icon-long-arrow-right"></use>
+            </svg>
+            <p>
+              Vitae sapien pellentesque habitant morbi tristique senectus et
+              netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
+              lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt
+              nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet
+              est placerat in. Lectus magna fringilla urna porttitor rhoncus
+              vitae.
+            </p>
+          </div>
+          <ul>
+            <li>
+              <p>01</p>
+              <div>
+                <svg width="67" height="67">
+                  <use href="./img/icons.svg#icon-arrow-small-right"></use>
+                </svg>
+                <h3>3D Conception & Design</h3>
+              </div>
+            </li>
+            <li>
+              <p>02</p>
+              <div>
+                <svg>
+                  <use></use>
+                </svg>
+                <h3>Interaction Design</h3>
+              </div>
+            </li>
+            <li>
+              <p>03</p>
+              <div>
+                <svg>
+                  <use></use>
+                </svg>
+                <h3>VR World User Testing</h3>
+              </div>
+            </li>
+            <li>
+              <p>04</p>
+              <div>
+                <svg>
+                  <use></use>
+                </svg>
+                <h3>Hydra VR Deploy</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!----------Option JOIN HYDRA SECTION ----------->
+      <section class="option-section section">
+        <div class="container">
+          <h2>JOIN HYDRA</h2>
+          <p>Let's Build Your VR Experience</p>
+          <form class="contact-form">
+            <input
+              class="contact-form-input"
+              type="text"
+              name="user-first-name"
+              id="user-first-name"
+              placeholder="First Name"
+            />
+            <input
+              class="contact-form-input"
+              type="text"
+              name="user-last-name"
+              id="user-last-name"
+              placeholder="Last Name"
+            />
+            <input
+              class="contact-form-input"
+              type="text"
+              name="contact-email"
+              id="contact-email"
+              placeholder="Email"
+            />
+            <input
+              class="contact-form-input"
+              type="tel"
+              name="contact-tel"
+              id="contact-tel"
+              placeholder="Phone Number"
+            />
+            <input
+              class="contact-form-input"
+              type="text"
+              name="subject-appeal"
+              id="subject-appeal"
+              placeholder="Subject"
+            />
+            <textarea
+              class="user-comment-input"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Tell Us Something..."
+            ></textarea>
+          </form>
+          <button type="submit">SEND TO HYDRA</button>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <!----------FOOTER---------->
+    <footer>
+      <div class="container">
+        <nav class="footer-navigation-list-all">
+          <a href="index.html">
+            <svg class="logo-svg" width="185" height="187">
+              <use href="./img/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">TECHNOLOGIES</a></li>
+            <li><a href="">HOW TO</a></li>
+            <li><a href="">JOIN HYDRA</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="">F.A.Q</a></li>
+            <li><a href="">SITEMAP</a></li>
+            <li><a href="">CONDITIONS</a></li>
+            <li><a href="">LICENSES</a></li>
+          </ul>
+
+          <div>
+            <h4>SOCIALIZE WITH HYDRA</h4>
+            <ul class="footer-social-list">
+              <li>
+                <a href="">
+                  <svg width="32" height="32">
+                    <use href="./img/icons.svg#icon-facebook"></use></svg></a>
+              </li>
+              <li>
+                <a href="">
+                  <svg width="32" height="32">
+                    <use href="./img/icons.svg#icon-twitter"></use></svg></a>
+              </li>
+              <li>
+                <a href="">
+                  <svg width="32" height="32">
+                    <use href="./img/icons.svg#icon-linkedin"></use></svg></a>
+              </li>
+              <li>
+                <a href="">
+                  <svg width="32" height="32">
+                    <use href="./img/icons.svg#icon-youtube"></use></svg></a>
+              </li>
+              <li>
+                <a href="">
+                  <svg width="32" height="32">
+                    <use href="./img/icons.svg#icon-instagram"></use></svg></a>
+              </li>
+              <li>
+                <a href="">
+                  <svg width="32" height="32">
+                    <use href="./img/icons.svg#icon-pinterest"></use></svg></a>
+              </li>
+            </ul>
+            <button type="button">JOIN HYDRA</button>
+          </div>
+        </nav>
+
+        <p>
+          2023 &#169; HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS
+          RESERVED
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
